@@ -1,0 +1,228 @@
+@import "./reset.css";
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #EEEFF1;
+    width: 1920px;
+    height: 700px;
+    position: sticky;
+}
+
+
+
+.nav-list {
+    display: flex;
+    column-gap: 42px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 26.25px;
+    letter-spacing: 1.2px;
+    color: #000000;
+    padding-left: 0;
+    margin: 0;
+}
+    
+.nav {
+    width: 646px;
+    height: 27px;
+    padding-top: 79px;
+    padding-left: 399px;
+}
+
+.nav-list-active {
+    font-weight: 500;
+    color: #34547A;
+}
+
+.header-heading {
+    width: 541px;
+    height: 45px;
+    font-weight: 500;
+    padding-top: 151px;
+    padding-left: 399px;
+    font-size: 48px;
+    line-height: 78.75px;
+    margin: 0;
+    color: #000000;
+}
+
+.header-text {
+    width: 540px;
+    height: 67px;
+    padding-top: 60px;
+    padding-left: 399px;
+    line-height: 26.25px;
+    color: #727272;
+    padding-bottom: 65px;
+    margin: 0;
+}
+
+.header-btn {
+    display: inline-block;
+    width: 225px;
+    height: 65px;
+    margin-left: 399px;
+    background-color: #34547A;
+}
+
+.btn {
+    display: inline-block;
+    width: 143px;
+    height: 26px;
+    line-height: 26.25px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    padding: 19px 41px 20px 41px;
+    color: #FFFFFF;
+}
+
+
+/*Middle Description*/
+
+.middle-text {
+    display: inline-block;
+    width: 540px;
+    height: 147px;
+    margin-top: 112px;
+    margin-left: 690px;
+}
+
+.middle-header-text {
+    display: inline-block;
+    width: 403px;
+    height: 30px;
+    padding: 0 69px 50px 68px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: center;    
+}
+
+.middle-description {
+    width: 540px;
+    height: 67px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26.25px;
+    text-align: center;
+}
+
+/*Section Project*/
+
+.projects {
+    display:flex;
+    width: 1920px;
+    height: 250px;
+    margin-top: 100px;
+    background-color: #34547A;
+}
+
+.projects:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.service-projects:not(:first-child) {
+    display: flex;
+    margin: 100px 49px 100px 0;
+}
+
+.service-projects-img {
+    float: left;
+    margin-right: 20px; 
+    width: 141px;
+    height: 50px;
+}
+
+.service-project-img_1 {
+    margin: 100px 45px 100px 0;
+    padding-left: 409px;
+}
+
+/*Middle Bottom Text*/
+
+.middle-bottom-text {
+    display: inline-block;
+    width: 540px;
+    height: 147px;
+    margin: 100px 690px 57px 690px;
+}
+
+.middle-header-bottom {
+    display: inline-block;
+    width: 403px;
+    height: 30px;
+    padding: 0 69px 50px 68px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: center;    
+}
+
+.middle-bottom-description {
+    width: 540px;
+    height: 67px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26.25px;
+    text-align: center;
+}
+
+.fonts-sections {
+    width: 1920px;
+    height: 1004px;
+    margin-bottom: 0;
+    background-color: #EEEFF1;
+}
+
+.video-img {
+    display: flex;
+    width: 1110px;
+    height: 600px;
+    padding: 0 405px 0 405px;
+}
+
+.btn-video {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: #FFFFFF;
+    margin: 250px 500px 250px 500px;
+}
+
+.logo-section {
+    width: 1920px;
+    height: 151px;
+    margin-top: 0;
+    background-color: #34547A;
+    position: sticky;
+}
+
+.logo {
+    float: left;
+    width: 130px;
+    height: 19px;
+    padding: 50px 1384px 0 406px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24.61px;
+    color: #FFFFFF;
+}
+
+.trademark {
+    float: right;
+    width: 193px;
+    height: 12px;
+    padding: 20px 1321px 50px 406px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21.33px;
+    color: #FFFFFF;
+}

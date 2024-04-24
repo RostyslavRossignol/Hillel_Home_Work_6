@@ -1,0 +1,15 @@
+ul, ul li {
+	list-style: none;
+}
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+a h3 {
+    margin: 0;
+}
